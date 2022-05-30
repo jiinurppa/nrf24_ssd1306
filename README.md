@@ -22,9 +22,10 @@ C++ Raspberry Pi Pico template project for wireless communication.
 
 ### Setup
 pico-sdk [repo](https://github.com/raspberrypi/pico-sdk)
+
 pico-extras [repo](https://github.com/raspberrypi/pico-extras)
 
-RF24 library is added as a submodule [documentation](https://nrf24.github.io/RF24/md_docs_pico_sdk.html) [repo](https://github.com/nRF24/RF24)
+RF24 library is added as a submodule [documentation](https://nrf24.github.io/RF24/md_docs_pico_sdk.html) & [repo](https://github.com/nRF24/RF24)
 
 Files that might require path tweaks:
 * .vscode\launch.json
