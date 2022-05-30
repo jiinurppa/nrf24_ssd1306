@@ -1,0 +1,4 @@
+[submodule "lib/RF24"]
+	path = lib/RF24
+	url = https://github.com/nRF24/RF24.git
+	ignore = dirty
