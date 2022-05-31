@@ -3,7 +3,7 @@
 C++ Raspberry Pi Pico template project for wireless communication.
 
 ### Functionality
-1. Boot to programming mode (optional) (Picoprobe can't wake Pico from dormant power mode)
+1. Boot to programming mode (optional with `enable_programming_mode`, Picoprobe can't wake Pico from dormant power mode)
 2. Set dormant power mode
 3. Wake from dormant power mode when wireless module sets `IRQ` pin `LOW`
 4. Read message from wireless module
@@ -19,13 +19,13 @@ C++ Raspberry Pi Pico template project for wireless communication.
 
 ### Wiring
 ![Wiring schematic](/images/wiring_schematic.svg)
+`Picoprobe GP5 / UART1 RX` connection is only required if `enable_debug_logging = true`
 
 ### Setup
-pico-sdk [repo](https://github.com/raspberrypi/pico-sdk)
+* pico-sdk [repo](https://github.com/raspberrypi/pico-sdk)
+* pico-extras (for `pico/sleep.h`) [repo](https://github.com/raspberrypi/pico-extras)
 
-pico-extras [repo](https://github.com/raspberrypi/pico-extras)
-
-RF24 library is added as a submodule [documentation](https://nrf24.github.io/RF24/md_docs_pico_sdk.html) & [repo](https://github.com/nRF24/RF24)
+RF24 library is added as a submodule [repo](https://github.com/nRF24/RF24) & [documentation](https://nrf24.github.io/RF24/md_docs_pico_sdk.html)
 
 Files that might require path tweaks:
 * .vscode\launch.json
