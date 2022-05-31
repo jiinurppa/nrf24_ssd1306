@@ -19,6 +19,7 @@ C++ Raspberry Pi Pico template project for wireless communication.
 
 ### Wiring
 ![Wiring schematic](/images/wiring_schematic.svg)
+
 `Picoprobe GP5 / UART1 RX` connection is only required if `enable_debug_logging = true`
 
 ### Setup
