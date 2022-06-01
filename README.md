@@ -31,8 +31,8 @@ Required repositories:
 RF24 library is added as a submodule [repo](https://github.com/nRF24/RF24) & [documentation](https://nrf24.github.io/RF24/md_docs_pico_sdk.html)
 
 Files that might require path tweaks:
-* .vscode\launch.json
-* .vscode\c_cpp_properties.json
+* `.vscode\launch.json`
+* `.vscode\c_cpp_properties.json`
 
 ## Annoyances
 1. USB power banks will turn off power after a few seconds (current draw too low?)
