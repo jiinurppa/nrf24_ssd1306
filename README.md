@@ -1,6 +1,6 @@
 # nrf24_ssd1306
 
-C++ Raspberry Pi Pico template project for wireless communication with a small display.
+C++ Raspberry Pi Pico template project for wireless communication with a small display to show received messages.
 
 ## Components
 * Raspberry Pi Pico [documentation](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
