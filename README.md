@@ -1,9 +1,9 @@
 ## nrf24_ssd1306
 
-C++ Raspberry Pi Pico template project for wireless communication.
+C++ Raspberry Pi Pico template project for wireless communication with a small display.
 
 ### Functionality
-1. Boot to programming mode (optional with `enable_programming_mode`, Picoprobe can't wake Pico from dormant power mode)
+1. Boot to programming mode (optional with `enable_programming_mode` or resetting with `BOOTSEL` pressed, Picoprobe can't wake Pico from dormant power mode)
 2. Set dormant power mode
 3. Wake from dormant power mode when wireless module sets `IRQ` pin `LOW`
 4. Read message from wireless module
@@ -34,5 +34,6 @@ Files that might require path tweaks:
 
 ### Annoyances
 1. USB power banks will turn off power after a few seconds (current draw too low?)
+   - Solution: Add a [LiPo SHIM for Pico](https://shop.pimoroni.com/products/pico-lipo-shim) with a [LiPo Battery Pack](https://shop.pimoroni.com/products/lipo-battery-pack)
 2. Picoprobe can't wake Pico from dormant power mode (reset required for code upload)
 3. Debugging in dormant power mode keeps breaking at main
