@@ -35,7 +35,7 @@ Files that might require path tweaks:
 * `.vscode\c_cpp_properties.json`
 
 ## Annoyances
-1. USB power banks will turn off power after a few seconds (current draw too low?)
+1. Powering from a USB power bank turns off power after a few seconds (current draw too low?). USB charger works fine.
    - Solution: Add a [LiPo SHIM for Pico](https://shop.pimoroni.com/products/pico-lipo-shim) with a [LiPo Battery Pack](https://shop.pimoroni.com/products/lipo-battery-pack)
 2. Picoprobe can't wake Pico from dormant power mode (reset required for code upload)
 3. Debugging in dormant power mode keeps breaking at main
